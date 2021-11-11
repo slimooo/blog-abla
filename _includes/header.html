@@ -22,6 +22,9 @@
                         <div class="nav__title">Menu</div>
                         <ul class="nav__list list-reset">
                             <li class="nav__item">
+                                <a href="https://abla.io//" class="nav__link">Accueil</a>
+                            </li>
+                            <li class="nav__item">
                                 <a href="{{ site.baseurl }}/" class="nav__link">Home</a>
                             </li>
                             {% for page in site.pages %} {% unless page.name == 'tags.html' or page.name == '404.html' %} {% if page.title %}
@@ -32,6 +35,14 @@
                                 <a href="{{ site.baseurl }}/https://calendly.com/ablastats/demonstration?back=1" class="nav__link button menu__button js-browse">Nos tarifs</a>
                             </li> -->
                             {% endif %} {% endunless %} {% endfor %} {% if site.color_scheme == "auto" %}
+
+                            <li class="nav__item">
+                                <button type="button" class="btntarif"> <a class="nav__link" href="https://abla.io/#tarifs" title="Nos tarifs" rel="noreferrer"> Nos tarifs </a></button>
+                            </li>
+                            <li class="nav__item">
+                                <button type="button" class="btndemo"><a class="nav-link" href="https://calendly.com/ablastats/demonstration?back=1" title="Demander une démo" target="_blank" rel="noopener noreferrer"> Programmer une démo </a></button>
+                            </li>
+
                             <li class="nav__item nav__item-icon">
                                 <div class="toggle-theme">
                                     <div class="toggle-moon" title="Enable dark mode"><i class="ion ion-ios-moon"></i></div>
