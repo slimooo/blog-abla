@@ -137,7 +137,7 @@
             align-items: center;
             .nav__item {
                 display: inline-block;
-                margin-right: 48px;
+                margin-right: 20px;
                 margin-bottom: 0;
                 &.nav__item-icon {
                     margin-right: 12px;
@@ -228,11 +228,11 @@
             background: #84c188;
             border: 0;
             border-radius: 100px;
-            font: 700 1rem/1.4rem Akkurat, Helvetica, sans-serif;
+            font: 700 1.2rem/1.4rem Akkurat, Helvetica, sans-serif;
         }
         
-        .btntarif:focus,
-        .btntarif:hover,
+        // .btntarif:focus,
+        // .btntarif:hover,
         button:focus,
         button:hover {
             background: #64636f;
