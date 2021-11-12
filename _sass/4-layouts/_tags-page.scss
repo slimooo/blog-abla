@@ -43,11 +43,12 @@
         font-weight: 500;
         text-transform: capitalize;
         border-radius: 8px;
+        color: var(--white);
         transition: none;
-        background: var(--background-alt-color);
-        &:hover {
-            color: var(--heading-font-color);
-        }
+        background: var(--btntag-background-color);
+        // &:hover {
+        //     color: var(--heading-font-color);
+        // }
     }
     @media only screen and (max-width: $mobile) {
         padding-bottom: 48px;
@@ -95,7 +96,7 @@
     align-items: center;
     padding: 12px 24px;
     border-radius: 8px;
-    color: var(--heading-font-color);
+    color: var( --white);
     background: var(--btntag-background-color);
     span {
         font-family: $heading-font-family;
