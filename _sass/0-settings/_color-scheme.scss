@@ -1,6 +1,7 @@
 /* Color Scheme */
 
 :root {
+    --tag-color: #84C188;
     --brand-color: #0073ec;
     --white: #fff;
     --light-gray: #f0f0f0;
@@ -24,6 +25,7 @@
     --th-color: var(--light-gray);
     --tr-color: var(--light-gray);
     --syntax-highlighting-background: #f3f3f3;
+    --btntag-background-color: var(--tag-color);
 }
 
 :root[dark] {
