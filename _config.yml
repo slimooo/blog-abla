@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Abla Analytics | Mesure d'audience alternative à Google Analytics
-logo: 'https://meziane1981.github.io/images/logo.svg'
+logo: 'https://meziane1981.github.io/blog-abla/images/logo.svg'
 descri ption: Abla personal blogging 
 baseurl: "/blog-abla" # the subpath of your site, e.g. /blog
 url: "https://meziane1981.github.io" # the base hostname & protocol for your site, e.g. http://example.com
