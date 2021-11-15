@@ -5,22 +5,18 @@
 
 <body>
 
-  {% if site.google-analytics %}
-    {% include google-analytics.html %}
-  {% endif %}
+    {% if site.google-analytics %} {% include google-analytics.html %} {% endif %} {% include header.html %}
 
-  {% include header.html %}
+    <!-- begin content -->
+    <main class="content" aria-label="Content">
+        {{ content }}
+    </main>
+    <!-- end content -->
 
-  <!-- begin content -->
-  <main class="content" aria-label="Content">
-    {{ content }}
-  </main>
-  <!-- end content -->
+    {% include footer.html %}
 
-  {% include footer.html %}
-
-  <script src="{{ site.baseurl }}/js/scripts.js"></script>
-  <script src="{{ site.baseurl }}/js/common.js"></script>
+    <script src="{{ site.baseurl }}/js/scripts.js"></script>
+    <script src="{{ site.baseurl }}/js/common.js"></script>
 </body>
 
 </html>
