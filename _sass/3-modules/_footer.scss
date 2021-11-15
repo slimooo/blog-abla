@@ -106,10 +106,10 @@
     .gallery__image {
         img {
             height: 100%;
-            border-radius: 8px;
-            overflow: hidden;
+            // border-radius: 8px;
+            // overflow: hidden;
             &.lightense-open {
-                border-radius: 0;
+                border-radius: 0px;
             }
         }
     }
