@@ -48,7 +48,7 @@ gallery:
   gallery__columns: 3
   gallery__images:
     - alt: 'Rest'
-      url: 'https://meziane1981.github.io/images/100.jpg'
+      url: '/images/100.jpg'
     - alt: 'Lifestyle'
       url: '/images/101.jpg'
     - alt: 'Hobby'
