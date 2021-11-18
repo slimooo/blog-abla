@@ -15,6 +15,7 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
   #author__avatar: '/images/01-1.jpg'
 
 
+
 social:
 - {icon: "ion-logo-twitter", link: "https://twitter.com"}
 - {icon: "ion-logo-facebook", link: "https://facebook.com"}
