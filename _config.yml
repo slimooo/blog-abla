@@ -10,9 +10,10 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 
 #-------------------------------
 # Author Settings
-#author:
-  #author__bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
-  #author__avatar: '/images/01-1.jpg'
+author:
+  author__name: Slim
+  author__bio: Maamar
+  author__avatar: '/images/01-1.jpg'
 
 
 
