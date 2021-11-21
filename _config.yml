@@ -10,10 +10,9 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 
 #-------------------------------
 # Author Settings
-author:
-  author__name: Slim
-  author__bio: Maamar
-  author__avatar: '/images/01-1.jpg'
+#author:
+  #author__bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
+  #author__avatar: '/images/01-1.jpg'
 
 
 
@@ -23,7 +22,6 @@ social:
 - {icon: "ion-logo-instagram", link: "https://instagram.com"}
 - {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
 - {icon: "ion-logo-youtube", link: "https://youtube.com"}
-
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
