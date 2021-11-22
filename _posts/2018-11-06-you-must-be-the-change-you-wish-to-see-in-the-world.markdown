@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  You must be the change you wish to see in the world
+author: ahmed1 ahmed2 ahmed3 ahmed4
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2020-11-06 15:01:35 +0300
 image:  '/images/05.jpg'

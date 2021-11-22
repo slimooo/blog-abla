@@ -41,12 +41,12 @@ layout: default
           <h1 class="post__title">{{ page.title | escape }}</h1>
   
           <div class="post__meta">
-            <a href="{{site.baseurl}}/" class="post__author-image">
+            <!-- <a href="{{site.baseurl}}/" class="post__author-image">
               <img class="lazy" data-src="{{site.author.author__avatar}}" alt="{{site.author.author__name}}">
-            </a>
+            </a> -->
 
             <div class="post__meta-bottom">
-              <a class="post__author" href="{{site.baseurl}}/">{{site.author.author__name}}</a>
+               <p class="post__author"> {{post.author}} {{page.author}}</p> 
               <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
             </div>
           </div>
