@@ -46,7 +46,23 @@ layout: default
             </a> -->
 
             <div class="post__meta-bottom">
-               <p class="post__author"> {{post.author}} {{page.author}}</p> 
+               <p class="post__author">
+            {% if page.authors.length == 0 %}
+                No author
+            {% elsif page.authors.length == 1 %}
+                {{ page.authors | first }}
+            {% else %}
+                {% for author in page.authors %}
+                    {% if forloop.first %}
+                        {{ author }}
+                    {% elsif forloop.last %}
+                        and {{ author }}
+                    {% else %}
+                        , {{ author }}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+</p> 
               <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
             </div>
           </div>
