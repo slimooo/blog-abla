@@ -3,8 +3,8 @@
 title: Abla Analytics | Mesure d'audience alternative à Google Analytics
 logo: 'https://meziane1981.github.io/blog-abla/images/logo.svg'
 descri ption: Abla personal blogging 
-baseurl: "/blog-abl2/" # the subpath of your site, e.g. /blog
-url: "https://meziane1981.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://abla.io/" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -13,7 +13,14 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 #author:
   #author__bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
   #author__avatar: '/images/01-1.jpg'
-
+authors:
+- Slim1
+- maamar
+- ahmed
+# - Slim4
+# - Slim5
+# - Slim6
+# - Slim7
 
 
 social:

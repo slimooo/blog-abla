@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Remember that happiness is a way of travel, not a destination
-authors: ["Sage Kirk", "Mike Young"]
+author: ahmed1 ahmed2 ahmed3 ahmed4
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2020-04-24 15:01:35 +0300
 image:  '/images/14.jpg'

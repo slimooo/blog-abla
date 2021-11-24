@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Everything has beauty, but not everyone can see
-authors: ["Sage Kirk", "Mike Young"]
+author: ahmed1 ahmed2 ahmed3 ahmed4
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2020-05-29 18:05:55 +0300
 image:  '/images/12.jpg'
