@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  You must be the change you wish to see in the world
-author: ahmed1 ahmed2 ahmed3 ahmed4
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2020-11-06 15:01:35 +0300
 image:  '/images/05.jpg'
 video_embed: https://www.youtube.com/embed/gYO1uk7vIcc
+authors: ["Sage Kirk", "Mike Young"]
 tags:   [workflow, hobby]
 ---
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace [Andrew Wulf](https://unsplash.com/photos/Tc3c8ZDIbxw) diversity and empowerment.
