@@ -39,19 +39,41 @@ layout: default
           {% endif %}
   
           <h1 class="post__title">{{ page.title | escape }}</h1>
-  
-          <div class="post__meta">
-            <!-- <a href="{{site.baseurl}}/" class="post__author-image">
+
+              {% if page.authors %}
+                <div class="flex flex-col pb-3 md:hidden">
+                  {% for author in page.authors %}
+                    {% include author-large.html
+                      author=author
+                    %}
+                  {% endfor %}
+                </div>
+              {% endif %}
+
+              <!-- <img width="1600" height="900" src="{{ page.image }}"/> -->
+
+              <div class="flex flex-col md:flex-row py-6 md:py-12">
+
+                <div class="w-full md:w-3/12 pr-3">
+                  {% if page.authors %}
+                    <div class="flex flex-col hidden md:flex mb-3 md:mb-6">
+                      {% for author in page.authors %}
+                        {% include author-large.html
+                      author=author
+                      %}
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+          <!-- <div class="post__meta">
+            <a href="{{site.baseurl}}/about/" class="post__author-image">
               <img class="lazy" data-src="{{site.author.author__avatar}}" alt="{{site.author.author__name}}">
             </a> -->
 
             <div class="post__meta-bottom">
-          <p class="post__author">
-                    {{post.author}}{{page.author}}
-          </p> 
+              <a class="post__author" href="{{site.baseurl}}/about/">{{site.author.author__name}}</a>
               <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
             </div>
-          </div>
+          <!-- </div> -->
   
         </div>
       </div>
@@ -81,15 +103,11 @@ layout: default
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
             title="Share on Facebook" rel="nofollow"><i class="ion ion-logo-facebook"></i></a>
         </li>
-
-
-        <li class="share__item">
-          <a class="share__link share__pinterest" href="http://www.microsoft.com/education/products/teamspin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}{{ page.image }}&amp;description={{ page.title | uri_escape }}"
-          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
+       <li class="share__item">
+          <a class="share__link share__microsoft" href="http://www.microsoft.com/education/products/teamspin/create/button/?url={{ site.url }}{{ page.url }}&amp;media={{ site.url }}{{ site.baseurl }}{{ page.image }}&amp;description={{ page.title | uri_escape }}"
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on microsoft"
           rel="nofollow"><i class="ion ion-logo-windows"></i></a>
         </li>
-
-
         <li class="share__item">
           <a class="share__link share__linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn" rel="nofollow"><i class="ion ion-logo-linkedin"></i></a>
@@ -103,7 +121,7 @@ layout: default
 <!-- end post -->
 
 {% include related-posts.html %}
-<!-- 
+
 {% if site.disqus-identifier %}
   <div class="container">
     <div class="row">
@@ -112,4 +130,4 @@ layout: default
       </div>
     </div>
   </div>
-{% endif %} -->
+{% endif %}
