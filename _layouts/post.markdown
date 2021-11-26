@@ -91,7 +91,7 @@ layout: default
           
           <li class="share__item">
           <a class="share__link share__mail" href="mailto:{{site.email}}={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}&source={{ site.title | uri_escape }}"
-          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on E-mail" rel="nofollow"><i class="ion ion-mail"></i></a>
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on E-mail" rel="nofollow"><ion-icon class="ion-ios-mail"></ion-icon></a>
         </li>
 
         <li class="share__item">
