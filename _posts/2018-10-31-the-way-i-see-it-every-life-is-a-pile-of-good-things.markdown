@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  The way I see it, every life is a pile of good things
-author: ahmed1 ahmed2 ahmed3 ahmed4
+authors: ["Slim", "Maamar", "Mike"]
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2020-10-31 15:01:35 +0300
 image:  '/images/11.jpg'

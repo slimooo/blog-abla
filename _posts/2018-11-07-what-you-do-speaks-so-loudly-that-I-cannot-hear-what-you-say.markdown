@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  What you do speaks so loudly that I cannot hear what you say
-author: ahmed1 ahmed2 ahmed3 ahmed4
+authors: ["Slim", "Maamar", "Mike"]
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2020-11-07 15:01:35 +0300
 image:  '/images/08.jpg'
