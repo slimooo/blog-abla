@@ -93,7 +93,7 @@ plugins:
   - jekyll-sitemap
 
 paginate: 9
-paginate_path: "/page/:num"
+paginate_path: "/blog/page:num/"
 
 # Pages Path
 defaults:
