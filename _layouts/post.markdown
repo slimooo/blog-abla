@@ -64,7 +64,7 @@ layout: default
               {% endfor %}
           {% endif %}
           </p> 
-              <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+              <time class="post__date" datetime="{{ page.date | date_to_rfc822 }}">{{ page.date | date_to_string }}</time>
             </div>
           </div>
   

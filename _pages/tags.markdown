@@ -15,7 +15,7 @@ permalink: /tags/
       <div class="row">
         <div class="col col-12">
 
-          <h1 class="tag__title">Tags</h1>
+          <h1 class="tag__title">Mots clés</h1>
         
           <ul class="tag__list list-reset">
             {% for item in (0..site.tags.size) %}
@@ -49,7 +49,7 @@ permalink: /tags/
                 </div>
                 <h2 class="tag__name" id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
               </div>
-              <a class="top__link" href="#top">Return to top</a>
+              <a class="top__link" href="#top">Retourner en haut</a>
             </div>
           </div>
         </div>
