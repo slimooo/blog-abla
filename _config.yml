@@ -109,3 +109,7 @@ include:
 sass:
   sass_dir: _sass
   style: compressed
+
+
+
+  date_format: "%A %e %B %Y"

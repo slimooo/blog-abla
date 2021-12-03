@@ -64,7 +64,13 @@ layout: default
               {% endfor %}
           {% endif %}
           </p> 
-              <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
+          <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {% assign date_english = page.date | date: date_format %}
+        {% include date-french.html %}
+        {{ date_french }}
+      </time>
+              <!-- <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> -->
             </div>
           </div>
   
