@@ -3,7 +3,7 @@ layout: post
 title:  Everything has beauty, but not everyone can see
 authors: ["Slim", "Maamar", "Mike"]
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
-date:   2020-05-29 18:05:55 +0300
+date:   2020-06-29 18:05:55 +0300
 image:  '/images/12.jpg'
 tags:   [technology, study]
 ---
