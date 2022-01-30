@@ -5,7 +5,7 @@ layout: default
 <div class="post-head">
   <div class="container">
     <div class="row">
-      
+
       {% if page.video_embed %}
       <div class="col col-12">
         <div class="post-video">
@@ -25,11 +25,11 @@ layout: default
       {%endif %}
 
       {% endif %}
-      
+
       {% if page.video_embed %} {% assign videoInfo = 'post__info-video' %} {% endif %}
       <div class="col {% if page.video_embed %}col-12{% else %}col-6 col-d-12{% endif %}">
         <div class="post__info {{videoInfo}}">
-  
+
           {% if page.tags.size >= 1 %}
             <div class="post__tags">
               {% for tag in page.tags %}
@@ -37,14 +37,11 @@ layout: default
               {% endfor %}
             </div>
           {% endif %}
-  
-          <h1 class="post__title">{{ page.title | escape }}</h1>
-  
-          <div class="post__meta">
-            <a href="{{site.baseurl}}/" class="post__author-image">
-              <img class="lazy" data-src="{{site.author.author__avatar}}" alt="{{site.author.author__name}}">
-            </a>
 
+          <h1 class="post__title">{{ page.title | escape }}</h1>
+
+          <div class="post__meta">
+              <img class="lazy" data-src="{{site.author.author__avatar}}" alt="{{site.author.author__name}}">
             <div class="post__meta-bottom">
           <p class="post__author">
                     {% assign authorCount = page.authors | size %}
@@ -63,7 +60,7 @@ layout: default
                   {% endif %}
               {% endfor %}
           {% endif %}
-          </p> 
+          </p>
           <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default:  "%-d %B %Y" %}
         {% assign date_english = page.date | date: date_format %}
@@ -73,7 +70,7 @@ layout: default
               <!-- <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time> -->
             </div>
           </div>
-  
+
         </div>
       </div>
     </div>
@@ -109,7 +106,7 @@ layout: default
           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" title="Share on Pinterest"
           rel="nofollow"><i class="ion ion-logo-windows"></i></a>
         </li>
-          
+
           <li class="share__item">
           <a class="share__link share__mail" href="mailto:?subject={{ page.title }}&body={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title }}"
           onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on E-mail" rel="nofollow"><ion-icon class="ion-ios-mail"></ion-icon></a>
@@ -128,12 +125,12 @@ layout: default
 <!-- end post -->
 
 {% include related-posts.html %}
-<!-- 
+<!--
 {% if site.disqus-identifier %}
   <div class="container">
     <div class="row">
       <div class="col col-12">
-        {% include disqus-comments.html %} 
+        {% include disqus-comments.html %}
       </div>
     </div>
   </div>

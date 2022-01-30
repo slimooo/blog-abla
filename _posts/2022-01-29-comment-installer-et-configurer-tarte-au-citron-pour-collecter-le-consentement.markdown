@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Comment installer et configurer Tarte au Citron pour recueillir le consentement ?
+title:  Comment configurer Tarte au Citron pour recueillir le consentement ?
 authors: ["Charly"]
 description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2022-01-28 15:01:35 +0300

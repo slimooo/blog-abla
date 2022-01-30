@@ -10,20 +10,30 @@ color_scheme: auto # You can choose three modes auto, light, and dark. By defaul
 
 #-------------------------------
 # Author Settings
-author:
-  # author__bio: Designs, talks, and writes about web, ethics, privacy, and dev. I share design tutorials, free resources and inspiration.
-  author__avatar: '/images/01-1.jpg'
+authors:
+  sal:
+    name: Caroline
+    display_name: Caroline
+    avatar: 'https://test2.abla.io/img/logo-abla.svg'
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net/donate/
+    twitter: https://twitter.com/wowthemesnet
+    description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
+  john:
+    name: John
+    display_name: John
+    avatar: 'assets/images/avatar.png'
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+
 
 social:
-- {icon: "ion-logo-twitter", link: "https://twitter.com"}
-- {icon: "ion-logo-facebook", link: "https://facebook.com"}
-- {icon: "ion-logo-instagram", link: "https://instagram.com"}
-- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
-- {icon: "ion-logo-youtube", link: "https://youtube.com"}
-
-# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
-# Other icons can be found at https://ionicons.com/v4/
-
+- {icon: "ion-logo-twitter", link: "https://twitter.com/ablaanalytics"}
+- {icon: "ion-logo-facebook", link: "https://facebook.com/ablaanalytics"}
+- {icon: "ion-logo-instagram", link: "https://instagram.com/ablaanalytics"}
+- {icon: "ion-logo-linkedin", link: "https://linkedin.com/company/ablaanalytics"}
 
 #-------------------------------
 # Hero Settings
