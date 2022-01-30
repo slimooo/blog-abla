@@ -18,12 +18,12 @@ NB : lorsque vous utilisez que des [outils exemptés de consentement comme Abla 
 
 Avec [Tarte au Citron](https://tarteaucitron.io/fr/), c'est un peu plus complexe. En effet, il s'agit d'une solution libre et auto-hébergée. Par nature, il est possible de démontrer l'existence de la collecte de consentement au jour du contrôle mais, par défaut, il n'y a aucun moyen de prouver son implémentation la semaine dernière, le mois dernier ou il y a 5 ans.
 
-Parmi les solutions proposées par la CNIL : 
+Parmi les solutions proposées par la CNIL :
 
 > "Les différentes versions du code informatique utilisé par l’organisme recueillant le consentement peuvent être mises sous séquestre auprès d’un tiers, ou, plus simplement, un condensat (ou « hash ») de ce code peut être publié de façon horodatée sur une plate-forme publique, pour pouvoir prouver son authenticité a posteriori".
 
 Le service gratuit [Wayback Machine](https://web.archive.org/) de l'Internet Archive peut être envisagé pour sauvegarder vos applications et être en mesure de prouver qu'elles utilisent une version correctement configurée de Tarte au citron pour recueillir le consentement.
- 
+
 ## La configuration de Wayback Machine pour recueillir la preuve de consentement
 
 Wayback Machine est un service proposé par la fondation Internet Archive. L'objectif de cet outil est d'archiver les contenus publiés sur le net à des fins historiques et de conservation des patrimoines numériques.
@@ -33,11 +33,11 @@ L'utilisation de cette solution a pour avantages sa gratuité et la possibilité
 La procédure pour sauvegarder une application web est relativement simple, il suffit de :
 
 1. Se rendre sur le site [Wayback Machine](https://web.archive.org/save/)
-2. Rentrer l’URL d'une page où se trouve la fenêtre cookies dans le formulaire « SAVE PAGE NOW » 
+2. Rentrer l’URL d'une page où se trouve la fenêtre cookies dans le formulaire « SAVE PAGE NOW »
 3. Cliquer sur le bouton "Save Page"
 4. Conserver le lien généré par la « Wayback Machine » afin d’être en mesure de consulter la version archivée ultérieurement
 
-<video controls loop height="auto" max-width="760"><source src="https://abla.io/img/webbackmachine.mp4" type="video/mp4"></video>
+<p><video controls loop height="auto" max-width="760"><source src="https://abla.io/img/webbackmachine.mp4" type="video/mp4"></video></p>
 
 Pour obtenir un bon niveau de preuves que le consentement est correctement effectué par Tarte au citron sur l'ensemble de l'application, il peut également être pertinent de sauvegarder un échantillon représentatif des différentes pages des applications, en particulier, les pages qui nécessitent le recueil du consentement (les pages avec des vidéos YouTube, Dailymotion, des réseaux sociaux, etc.).
 
