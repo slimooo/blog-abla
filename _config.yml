@@ -2,9 +2,9 @@
 # Site Settings
 title: Abla Analytics | Mesure d'audience alternative à Google Analytics
 logo: 'https://meziane1981.github.io/blog-abla/images/logo.svg'
-descri ption: Abla personal blogging 
+descri ption: Abla personal blogging
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://test.abla.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://slimooo.github.io/blog-abla/" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
