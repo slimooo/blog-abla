@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Comment recueillir valablement le consentement pour les cookies ?
-authors: ["Caroline"]
+authors: Caroline GUILLAUMOT
 date:   2021-03-29 12:30:00 +0300
 image:  '/images/15.jpg'
 tags:   [cookies, RGPD, CNIL]

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Est-il possible de déposer des cookies sans demander le consentement ?
-authors: Slim
+authors: Caroline GUILLAUMOT
 date:   2021-03-31 12:30:00 +0300
 image:  '/images/15.jpg'
 tags:   [cookies, RGPD, CNIL]

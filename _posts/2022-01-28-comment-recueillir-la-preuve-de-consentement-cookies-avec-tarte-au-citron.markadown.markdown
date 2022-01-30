@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Comment recueillir la preuve de consentement cookies avec Tarte au Citron ?
-authors: ["Slim"]
+authors: Slim TOUHAMI, Charly G.
 date:   2022-01-30 12:31:35 +0300
 image:  '/images/15.jpg'
 tags:   [cookies, RGPD, CNIL]
