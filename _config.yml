@@ -22,7 +22,7 @@ social:
 hero:
   hero__title: L’analytics différemment
   hero__description: Abla c’est simplement une solution de mesure d'audience pour les sites internet. Notre différence avec Google Analytics ? On est respectueux par défaut au RGPD et aux recommandations de la CNIL.
-  hero__image: '../images/abla-dashboard.png'
+  hero__image: '../img/abla-dashboard.png'
 
 
 #-------------------------------
