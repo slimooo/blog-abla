@@ -41,7 +41,7 @@ layout: default
           <h1 class="post__title">{{ page.title | escape }}</h1>
 
           <div class="post__meta">
-              <img class="lazy" data-src="{{site.author.author__avatar}}" alt="{{site.author.author__name}}">
+              <img class="lazy" data-src="{{author.avatar}}" alt="{{author__name}}">
             <div class="post__meta-bottom">
           <p class="post__author">
                     {% assign authorCount = page.authors | size %}
