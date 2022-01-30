@@ -2,7 +2,6 @@
 layout: post
 title:  Comment recueillir valablement le consentement pour les cookies ?
 authors: ["Caroline"]
-description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
 date:   2021-03-29 12:30:00 +0300
 image:  '/images/15.jpg'
 tags:   [cookies, RGPD, CNIL]
