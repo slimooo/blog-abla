@@ -9,12 +9,12 @@ contains tag %} {% assign sameTagCount = sameTagCount | plus: 1 %} {% endif %} {
                 <div class="container__inner">
                     <div class="section__info">
                         <div class="section__head">
-                            <h2 class="section__title">vous pouvez aussi aimer ça</h2>
+                            <h2 class="section__title">ces publications pourraient vous intéresser :</h2>
                             <a class="section__link" href="{{ '/blog' | relative_url }}">
                 {% if page.tags.size >= 1 %}
                 {% for tag in page.tags %}
                   {% if forloop.index == 1 %}
-                    <a href="{{ site.baseurl }}/tags#{{ tag }}" class="section__link related-tag">Voir tous<span> {{ tag }}</span></a> {% endif %} {% endfor %} {% endif %}
+                     {% endif %} {% endfor %} {% endif %}
                             </a>
                         </div>
                     </div>
