@@ -4,7 +4,7 @@ title:  Comment configurer Tarte au Citron pour recueillir le consentement ?
 authors: Slim TOUHAMI, Charly R.
 date:   2022-01-12 15:01:35 +0300
 image:  '/images/22.png'
-tags:   [cookies, RGPD, CNIL]
+tags:   [consentement CNIL]
 ---
 
 Lorsqu'on souhaite connaître le trafic sur son site, que l'on ajoute des bannières publicitaires ou des vidéos, il arrive souvent que l'on fasse appel à des services tiers déposants des traceurs appelés cookies. Sauf exemption, l'éditeur du site a l'obligation de collecter le consentement du visiteur puisque l'utilisation de ces traceurs implique souvent la collecte de données personnelles.

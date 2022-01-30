@@ -4,7 +4,7 @@ title:  Comment recueillir valablement le consentement pour les cookies ?
 authors: Caroline GUILLAUMOT
 date:   2021-03-29 12:30:00 +0300
 image:  '/images/15.jpg'
-tags:   [cookies, RGPD, CNIL]
+tags:   [consentement CNIL]
 ---
 
 Le dépôt et la lecture de cookies constituent un traitement au sens de la règlementation sur la protection des données personnelles. À ce titre, leur utilisation est strictement règlementée et nécessite le consentement du visiteur.

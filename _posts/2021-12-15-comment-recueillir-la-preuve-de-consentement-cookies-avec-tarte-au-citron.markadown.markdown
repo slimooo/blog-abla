@@ -4,7 +4,7 @@ title:  Comment recueillir la preuve de consentement cookies avec Tarte au Citro
 authors: Slim TOUHAMI, Charly G.
 date:   2021-12-15 12:31:35 +0300
 image:  '/images/15.jpg'
-tags:   [cookies, RGPD, CNIL]
+tags:   [consentement CNIL]
 ---
 
 À l'article 4 de ses recommandations sur les cookies et traceurs, la CNIL demande à l'éditeur d'un site de *"démontrer, à tout moment, que les utilisateurs ont donné leur consentement"*. En d'autres termes, en cas de contrôle ou de litige, il faudra apporter la preuve que l'on a bien mis en place une fenêtre cookies et que celle-ci est bien conforme aux recommandations de la CNIL.

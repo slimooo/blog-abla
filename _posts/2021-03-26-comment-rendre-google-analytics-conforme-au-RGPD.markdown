@@ -4,7 +4,7 @@ title:  Comment rendre Google Analytics conforme au RGPD ?
 authors: Caroline GUILLAUMOT
 date:   2021-03-26 12:30:00 +0300
 image:  '/images/15.jpg'
-tags:   [cookies, RGPD, CNIL]
+tags:   [analytics, RGPD]
 ---
 
 Google Analytics est la solution de mesure d’audience la plus utilisée sur le marché. La mise en place de cet outil conduit à la collecte de données personnelles dont l’adresse IP et l’identifiant du navigateur (ou user-agent). Son utilisation nécessite par conséquent de respecter la réglementation sur la protection des données personnelles (RGPD et ePrivacy). Or, par défaut, la solution du géant de Mountain View n’est pas conforme au RGPD.

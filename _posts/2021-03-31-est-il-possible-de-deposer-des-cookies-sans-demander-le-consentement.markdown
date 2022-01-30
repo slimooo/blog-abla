@@ -4,7 +4,7 @@ title:  Est-il possible de déposer des cookies sans demander le consentement ?
 authors: Caroline GUILLAUMOT
 date:   2021-03-31 12:30:00 +0300
 image:  '/images/15.jpg'
-tags:   [cookies, RGPD, CNIL]
+tags:   [consentement CNIL]
 ---
 
 Les cookies sont des traceurs utilisés par les éditeurs de sites internet pour différentes finalités : mesure d’audience, authentification, publicité… Certains de ces cookies nécessitent la collecte du consentement du visiteur.
