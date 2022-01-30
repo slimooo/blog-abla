@@ -7,7 +7,7 @@ image:  '/images/15.jpg'
 tags:   [cookies, RGPD, CNIL]
 ---
 
-Le dépôt et la lecture de cookies constituent un traitement au sens de la règlementation sur la protection des données personnelles. A ce titre, leur utilisation est strictement règlementée et nécessite le consentement du visiteur.
+Le dépôt et la lecture de cookies constituent un traitement au sens de la règlementation sur la protection des données personnelles. À ce titre, leur utilisation est strictement règlementée et nécessite le consentement du visiteur.
 
 ## Dans quels cas le recueil du consentement n'est-il pas obligatoire ?
 
@@ -19,7 +19,7 @@ Afin de garantir le recueillement d’un consentement éclairé, et donc valable
 
 Le visiteur devra ainsi être informé dès son arrivée sur le site, de l’identité du responsable de traitement, des types de données collectées (le nom des traceurs doit être explicite) et de la finalité de cette collecte. Le bandeau cookie devra également indiquer à l’utilisateur qu’il a la possibilité de refuser le dépôt, ou de retirer à tout moment son consentement.
 
-## Doit-on informer le visiteur du transfert éventuel de données vers un pays n’appartenant pas à l’Union Européenne ?
+## Doit-on informer le visiteur du transfert éventuel de données vers un pays n’appartenant pas à l’Union européenne ?
 
 La nécessité de recueillir le consentement est renforcée lorsqu’il existe un transfert de données vers un pays en dehors de l’Union européenne. Les pays étrangers n’offrant pas tous  le même niveau de protection de la vie privée que la règlementation européenne, les transferts de données personnelles sont strictement règlementés. Les transferts sont considérés comme légaux sous réserve que l’éditeur du site assure un niveau de protection des données adéquat.
 
@@ -49,7 +49,7 @@ Il est nécessaire, pour garantir un consentement libre, que l’utilisateur soi
 
 Cette opération doit notamment se faire de manière aussi simple que lorsque l’utilisateur a donné son consentement. L’utilisateur doit ainsi pouvoir retirer son consentement à n’importe quel moment à l’aide d’un lien ou d’un bouton disponible sur toutes les pages du site.
 
-## A partir de quel moment peut-on valablement déposer un cookie ?
+## À partir de quel moment peut-on valablement déposer un cookie ?
 
 Le dépôt de cookie ne sera possible qu’à partir du moment où l’utilisateur aura formulé son consentement de façon claire et explicite. Le dépôt d’un cookie dès l’arrivée du visiteur est donc impossible.
 

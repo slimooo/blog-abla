@@ -45,6 +45,6 @@ La CNIL recommande de limiter à treize mois la durée de vie de ce type de trac
 
 La solution Matomo peut dans certains cas ne pas nécessiter le recueil du consentement. Elle n’est cependant pas conforme par défaut au RGPD, puisque les données collectées ne sont pas anonymisées. Son utilisation complexe peut également poser problème.
 
-Pour répondre à la problématique de la collecte du consentement, la société Astra Porta a développée la solution de mesure d'audience Abla Analytics. En mettant en place cette solution, vous bénéficiez du régime de l’exemption de collecte de consentement.
+Pour répondre à la problématique de la collecte du consentement, la société Astra Porta a développé la solution de mesure d'audience Abla Analytics. En mettant en place cette solution, vous bénéficiez du régime de l’exemption de collecte de consentement.
 
 Cette solution s’opère dans le respect de la vie privée des personnes : à la différence d’autres solutions, Abla Analytics effectue automatiquement une anonymisation des données, ne suit pas la navigation de l’utilisateur, et ne réalise aucun profilage.

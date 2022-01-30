@@ -7,7 +7,7 @@ image:  '/images/15.jpg'
 tags:   [cookies, RGPD, CNIL]
 ---
 
-A l'article 4 de ses recommandations sur les cookies et traceurs, la CNIL demande à l'éditeur d'un site de *"démontrer, à tout moment, que les utilisateurs ont donné leur consentement"*. En d'autres termes, en cas de contrôle ou de litige, il faudra apporter la preuve que l'on a bien mis en place une fenêtre cookies et que celle-ci est bien conforme aux recommandations de la CNIL.
+À l'article 4 de ses recommandations sur les cookies et traceurs, la CNIL demande à l'éditeur d'un site de *"démontrer, à tout moment, que les utilisateurs ont donné leur consentement"*. En d'autres termes, en cas de contrôle ou de litige, il faudra apporter la preuve que l'on a bien mis en place une fenêtre cookies et que celle-ci est bien conforme aux recommandations de la CNIL.
 
 Lorsqu'on utilise un Consent Management Plateform (CMP) comme [Didomi](https://support.didomi.io/fr/les-traceurs-exempt%C3%A9s-de-consentement-1) ou [Axeptio](https://www.axeptio.eu/post/quels-sont-les-cookies-exemptes-de-consentement), c'est le prestataire en tant que tiers de confiance qui peut apporter la preuve de l'existence de la collecte de consentement.
 
@@ -15,7 +15,7 @@ NB : lorsque vous utilisez que des [outils exemptés de consentement comme Abla 
 
 ## La collecte de la preuve cookies avec Tarte au Citron
 
-Avec [Tarte au Citron](https://tarteaucitron.io/fr/), c'est un peu plus complexe. En effet, il s'agit d'une solution libre et auto-hébergée. Par nature, il est possible de démontrer l'existence de la collecte de consentement au jour du contrôle mais, par défaut, il n'y a aucun moyen de prouver son implémentation la semaine dernière, le mois dernier ou il y a 5 ans.
+Avec [Tarte au Citron](https://tarteaucitron.io/fr/), c'est un peu plus complexe. En effet, il s'agit d'une solution libre et autohébergée. Par nature, il est possible de démontrer l'existence de la collecte de consentement au jour du contrôle, mais, par défaut, il n'y a aucun moyen de prouver son implémentation la semaine dernière, le mois dernier ou il y a 5 ans.
 
 Parmi les solutions proposées par la CNIL :
 
