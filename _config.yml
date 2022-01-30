@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
 title: Abla Analytics | Mesure d'audience alternative à Google Analytics
-logo: 'https://slimoo.github.io/blog-abla/images/logo.svg'
-descri ption: Abla personal blogging
+logo: 'https://test2.abla.io/img/logo-abla.svg'
+descri ption: Le blog sur la conformité RGPD des cookies
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://test2.abla.io" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
