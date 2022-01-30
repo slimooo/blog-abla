@@ -35,12 +35,10 @@ La procédure pour sauvegarder une application web est relativement simple, il s
 1. Se rendre sur le site [Wayback Machine](https://web.archive.org/save/)
 2. Rentrer l’URL d'une page où se trouve la fenêtre cookies dans le formulaire « SAVE PAGE NOW » 
 3. Cliquer sur le bouton "Save Page"
-3. Conserver le lien généré par la « Wayback Machine » afin d’être en mesure de consulter la version archivée ultérieurement
+4. Conserver le lien généré par la « Wayback Machine » afin d’être en mesure de consulter la version archivée ultérieurement
 
-<video controls loop height="220" width="390"><source src="https://abla.io/img/webbackmachine.mp4" type="video/mp4"></video>
+<video controls loop><source src="https://abla.io/img/webbackmachine.mp4" type="video/mp4"></video>
 
-![capture 12](https://astraporta.com/assets/images/12.PNG)
-
-Pour obtenir un bon niveau de preuves que le consentement est correctement effectué par tarteaucitron sur l'ensemble de l'application, il peut également être pertinent de sauvegarder un échantillon représentatif des différentes pages des applications, en particulier, les pages qui nécessitent le recueil du consentement (les pages avec des vidéos YouTube, Dailymotion, des réseaux sociaux, etc.).
+Pour obtenir un bon niveau de preuves que le consentement est correctement effectué par Tarte au citron sur l'ensemble de l'application, il peut également être pertinent de sauvegarder un échantillon représentatif des différentes pages des applications, en particulier, les pages qui nécessitent le recueil du consentement (les pages avec des vidéos YouTube, Dailymotion, des réseaux sociaux, etc.).
 
 Cette approche a cependant un inconvénient majeur, elle nécessite des moyens humains significatifs pour sauvegarder les différentes pages d’une application et archiver les liens de la « Wayback Machine » pour une utilisation ultérieure.
