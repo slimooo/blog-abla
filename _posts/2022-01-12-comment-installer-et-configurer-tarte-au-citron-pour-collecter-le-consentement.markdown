@@ -2,7 +2,7 @@
 layout: post
 title:  Comment configurer Tarte au Citron pour recueillir le consentement ?
 authors: Slim TOUHAMI, Charly R.
-date:   2022-01-28 15:01:35 +0300
+date:   2022-01-12 15:01:35 +0300
 image:  '/images/15.jpg'
 tags:   [cookies, RGPD, CNIL]
 ---
