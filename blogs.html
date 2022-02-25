@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Blog Page"
+pagination:
+  enabled: true
+  collection: blogs
+  indexpage: "blogs"
+---
+<header class="content__header content__header--plain content__header--index px-1-5 py-2 ta-centre">
+  <div class="max__body-width">
+    <h1 class="heading">{{ page.title }}</h1>
+  </div>
+</header>
+<section class="content__body px-1-5 pb-4 mt-1-5">
+    <div class="max__body-width">
+     {% include post_breadcrumb.html  %}
+      <div class="resources__block">
+        <div class="resources__filter mb-4">
+        </div>
+        <div class="resources__content">
+          <div class="resources__entries mt-2" data-type="blogs">
+           {% include blog_posts.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

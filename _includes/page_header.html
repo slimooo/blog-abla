@@ -1,0 +1,26 @@
+<header class="content__header content__header--plain content__header--index px-1-5 py-2 ta-centre">
+  <div class="max__body-width">
+    <div class="breadcrumb">
+      <ul class="li-clear m-0">
+        {% if page.url != "/index.html" %}
+        <li class="breadcrumb__page mb-0">
+          {% if include.collection_name %}
+          <a href="/" class="c-black td-none" title="{{ page.title }}"> Home </a>
+          {% endif %}
+          {% if include.collection_name %}
+          <span>/</span>
+          {% endif %}
+        </li>
+        {% if include.collection_name %}
+        <li class="breadcrumb__page mb-0">
+          <a href="/{{ include.collection_name }}" class="c-black td-none" title="{{ include.collection_name }}">
+            {{ include.collection_name }} {{ post.pageindex }}
+          </a>
+        </li>
+        {% endif %}
+        {% endif %}
+      </ul>
+    </div>
+    <h1 class="heading">{{ page.title }}</h1>
+  </div>
+</header>
